@@ -10,7 +10,6 @@ buttons.forEach(button => {
             state.push(button.innerHTML);
             SearchBox();
             Filter();
-            console.log(state);
         }
     });
 })
@@ -45,8 +44,6 @@ function SearchBox(){
 }
 
 function Filter(){
-    console.log(cards);
-
     cards.forEach(card => {
         card.style.display = ' flex';
         const Buttons = Array.from(card.querySelectorAll('.button'));
