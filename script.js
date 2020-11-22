@@ -14,7 +14,7 @@ buttons.forEach(button => {
     });
 })
 
-Clear.addEventListener('click',function(){
+clear.addEventListener('click',function(){
     state = [];
     SearchBox();
     Filter();
