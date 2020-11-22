@@ -14,7 +14,7 @@ buttons.forEach(button => {
     });
 })
 
-clear.addEventListener('click',function(){
+Clear.addEventListener('click',function(){
     state = [];
     SearchBox();
     Filter();
@@ -26,10 +26,10 @@ function SearchBox(){
     let el = '';
     state.map(a => {
         el+=`<div class="search-button">
-            <p>${a}</p>
-             <div class="remove"></div>
-        </div>`;
-    });
+                <p>${a}</p>
+                <div class="remove"></div>
+            </div>`;
+    }); 
     
     searchContainer.firstElementChild.innerHTML = el;
     const remove = document.querySelectorAll('.remove');
