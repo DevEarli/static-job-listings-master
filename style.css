@@ -106,6 +106,10 @@ body {
   border-radius: 15px;
 }
 
+.left .name .account {
+  background-color: var(--DesaturatedDarkCyan);
+}
+
 .name span:last-child {
   background-color: black;
 }
